@@ -1,6 +1,6 @@
 function plus() {
-    const n1 = parseInt(document.getElementById("n1").value);
-    const n2 = parseInt(document.getElementById("n2").value);
+    const n1 = parseFloat(document.getElementById("n1").value);
+    const n2 = parseFloat(document.getElementById("n2").value);
     const result_output = document.getElementById("result");
     const btn_plus = document.getElementById("plus");
     const btn_minus = document.getElementById("minus");
@@ -15,8 +15,8 @@ function plus() {
 }
 
 function minus() {
-    const n1 = parseInt(document.getElementById("n1").value);
-    const n2 = parseInt(document.getElementById("n2").value);
+    const n1 = parseFloat(document.getElementById("n1").value);
+    const n2 = parseFloat(document.getElementById("n2").value);
     const result_output = document.getElementById("result");
     const btn_plus = document.getElementById("plus");
     const btn_minus = document.getElementById("minus");
@@ -31,8 +31,8 @@ function minus() {
 }
 
 function multiply() {
-    const n1 = parseInt(document.getElementById("n1").value);
-    const n2 = parseInt(document.getElementById("n2").value);
+    const n1 = parseFloat(document.getElementById("n1").value);
+    const n2 = parseFloat(document.getElementById("n2").value);
     const result_output = document.getElementById("result");
     const btn_plus = document.getElementById("plus");
     const btn_minus = document.getElementById("minus");
@@ -47,8 +47,8 @@ function multiply() {
 }
 
 function divide() {
-    const n1 = parseInt(document.getElementById("n1").value);
-    const n2 = parseInt(document.getElementById("n2").value);
+    const n1 = parseFloat(document.getElementById("n1").value);
+    const n2 = parseFloat(document.getElementById("n2").value);
     const result_output = document.getElementById("result");
     const btn_plus = document.getElementById("plus");
     const btn_minus = document.getElementById("minus");
